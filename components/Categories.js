@@ -1,12 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Beach from '../assets/beach.jpg'
-import Desert from '../assets/Desert.png'
-import Mountain from '../assets/Mountain.png'
-import Temple from '../assets/Temple.png'
-import Tower from '../assets/Tower.png'
-import Pyramid from '../assets/Pyramid.png'
-
 
 function Categories() {
   return (
@@ -18,32 +10,32 @@ function Categories() {
         <div className='flex gap-4 text-white'>
         <div className="flex rounded-full bg-[url('../assets/beach.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
             <div className='hidden group-hover:flex text-white p-6 group-hover:backdrop-brightness-50 w-full justify-center'>
-                <div className='my-auto'>name</div>     
+                <div className='my-auto'>Beach</div>     
             </div>
         </div>
-        <div className="flex rounded-full bg-[url('../assets/beach.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
+        <div className="flex rounded-full bg-[url('../assets/desert.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
             <div className='hidden group-hover:flex text-white p-6 group-hover:backdrop-brightness-50 w-full justify-center'>
-                <div className='my-auto'>name</div>     
+                <div className='my-auto'>Desert</div>     
             </div>
         </div>
-        <div className="flex rounded-full bg-[url('../assets/beach.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
+        <div className="flex rounded-full bg-[url('../assets/mountain.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
             <div className='hidden group-hover:flex text-white p-6 group-hover:backdrop-brightness-50 w-full justify-center'>
-                <div className='my-auto'>name</div>     
+                <div className='my-auto'>Mountain</div>     
             </div>
         </div>
-        <div className="flex rounded-full bg-[url('../assets/beach.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
+        <div className="flex rounded-full bg-[url('../assets/tower.jpg')] h-64 w-44 bg-cover object-right overflow-hidden group">
             <div className='hidden group-hover:flex text-white p-6 group-hover:backdrop-brightness-50 w-full justify-center'>
-                <div className='my-auto'>name</div>     
+                <div className='my-auto'>Tower</div>     
             </div>
         </div>
-        <div className="flex rounded-full bg-[url('../assets/beach.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
+        <div className="flex rounded-full bg-[url('../assets/pyramid.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
             <div className='hidden group-hover:flex text-white p-6 group-hover:backdrop-brightness-50 w-full justify-center'>
-                <div className='my-auto'>name</div>     
+                <div className='my-auto'>Pyramid</div>     
             </div>
         </div>
-        <div className="flex rounded-full bg-[url('../assets/beach.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
+        <div className="flex rounded-full bg-[url('../assets/temple.jpg')] h-64 w-44 bg-cover overflow-hidden object-center group">
             <div className='hidden group-hover:flex text-white p-6 group-hover:backdrop-brightness-50 w-full justify-center'>
-                <div className='my-auto'>name</div>     
+                <div className='my-auto'>Temple</div>     
             </div>
         </div>
 
